@@ -7,8 +7,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'PocketCloudSystem',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg'},
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/PocketCloudSystem/PocketCloud' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/9kJjqcsH7B'},
 			],
 			sidebar: [
 				{
