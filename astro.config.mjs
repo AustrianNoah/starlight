@@ -29,6 +29,13 @@ export default defineConfig({
 						{ label: 'Installation', slug: 'installation/installation'} 
 ,					]
 				},
+
+				{
+					label: "Modules",
+					items: [
+						{ label: 'Sign Module', slug: 'modules/signModule' },
+					]
+				}
 				
 			],
 		}),
