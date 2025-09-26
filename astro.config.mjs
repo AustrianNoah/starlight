@@ -20,7 +20,7 @@ export default defineConfig({
 ,					]
 				},
 
-				{ slug: 'Features'},
+				{ slug: 'features/Features'},
 				
 			],
 		}),
