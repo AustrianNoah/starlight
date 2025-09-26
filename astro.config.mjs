@@ -38,6 +38,10 @@ export default defineConfig({
           link: 'https://www.nasa.gov/',
           attrs: { target: '_blank', style: 'font-style: italic' },
         },
+				{
+					label: 'SignModule',
+					slug: 'modules/signModule'
+				},
 					]
 				}
 				
