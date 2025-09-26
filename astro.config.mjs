@@ -37,6 +37,7 @@ export default defineConfig({
 							label: 'Sign Module', slug: 'modules/signmodule',
 						},
 						{ label: "NPC Module", slug: 'modules/npcmodule' },
+						{ label: "Hub Module", slug: 'modules/hubmodule'},
 					]
 				}
 				
