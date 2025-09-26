@@ -33,7 +33,7 @@ export default defineConfig({
 				{
 					label: "Modules",
 					items: [
-						{ label: 'Sign Module', slug: 'modules/signModule' },
+						{ label: 'NASA', link: 'https://www.nasa.gov/' },
 					]
 				}
 				
