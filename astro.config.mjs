@@ -22,9 +22,7 @@ export default defineConfig({
 				},
 				{
 					label: "Home",
-					items: [
-						{ label: 'Home', slug: 'home/home '},
-					]
+					autogenerate: { directory: 'home' },
 				},
 			],
 		}),
