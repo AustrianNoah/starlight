@@ -31,19 +31,10 @@ export default defineConfig({
 				},
 
 				{
-					label: "Modules",
-					items: [
-						{
-          label: 'NASA',
-          link: 'https://www.nasa.gov/',
-          attrs: { target: '_blank', style: 'font-style: italic' },
-        },
-				{
-					label: 'SignModule',
-					slug: 'modules/signModule'
-				},
-					]
-				}
+      label: 'Modules',
+      // Autogenerate a group of links for the 'constellations' directory.
+      autogenerate: { directory: 'modules' },
+    },
 				
 			],
 		}),
