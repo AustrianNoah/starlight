@@ -1,6 +1,6 @@
 ---
 title: HubCommand Module
 ---
-
-| :------------ |:---------------:| -----:|
-| /hub | Transfer to a Lobby Server | None |
+| Usage | Description | Permission |
+|:----- | :--------------: | ------:|
+| /hub | Transfer to a Lobby Server | NONE |
