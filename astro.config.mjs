@@ -16,7 +16,8 @@ export default defineConfig({
 					label: "Installation",
 					items: [
 						{ label: 'Requirements', slug: 'installation/requirements'},
-					]
+						{ label: 'Installation', slug: 'installation/installation'} 
+,					]
 				},
 				{
 					label: 'Guides',
