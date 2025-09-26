@@ -33,11 +33,9 @@ export default defineConfig({
 				{
 					label: "Modules",
 					items: [
-						{
-							label: 'Sign Module', slug: 'modules/signmodule',
-						},
+						{ label: 'Sign Module', slug: 'modules/signmodule' },
 						{ label: "NPC Module", slug: 'modules/npcmodule' },
-						{ label: "Hub Module", slug: 'modules/hubmodule'},
+						{ label: "HubCommand Module", slug: 'modules/hubmodule'},
 						{ label: "GlobalChat Module", slug: 'modules/globalchatmodule' },
 					]
 				}
