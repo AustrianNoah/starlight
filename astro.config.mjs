@@ -13,6 +13,12 @@ export default defineConfig({
 			sidebar: [
 				{ slug: 'home/home'},
 				{
+					label: "Installation",
+					items: [
+						{ label: 'Requirements', slug: 'installation/requirements'},
+					]
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
