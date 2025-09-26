@@ -8,4 +8,6 @@ Less concerned with telling a story or addressing a specific use case, they shou
 
 ## Further reading
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+PocketCloud is a cloudsystem, which supports PocketMine-MP and WaterdogPE to manage the servers easily and without any big knowledge of these software.
+
+If you find any bugs or other issues, feel free to create an issue! :)
