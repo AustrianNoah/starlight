@@ -26,15 +26,18 @@ export default defineConfig({
 					label: "Installation",
 					items: [
 						{ label: 'Requirements', slug: 'installation/requirements'},
-						{ label: 'Installation', slug: 'installation/installation'} 
-,					]
+						{ label: 'Installation', slug: 'installation/installation'},					
+					]
 				},
 
 				{
-      label: 'Modules',
-      // Autogenerate a group of links for the 'constellations' directory.
-      autogenerate: { directory: 'modules' },
-    },
+					label: "Modules",
+					items: [
+						{
+							label: 'Sign Module', slug: 'modules/signmodule',
+						}
+					]
+				}
 				
 			],
 		}),
