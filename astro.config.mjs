@@ -29,7 +29,12 @@ export default defineConfig({
 ,					]
 				},
 
-				{ autogenerate: { directory: 'features' }},
+				{
+					label: "Features",
+					autogenerate: {
+						directory: 'features'
+					},
+				},
 				
 			],
 		}),
