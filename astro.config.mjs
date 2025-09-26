@@ -38,6 +38,7 @@ export default defineConfig({
 						},
 						{ label: "NPC Module", slug: 'modules/npcmodule' },
 						{ label: "Hub Module", slug: 'modules/hubmodule'},
+						{ label: "GlobalChat Module", slug: 'modules/globalchatmodule' },
 					]
 				}
 				
