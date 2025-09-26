@@ -7,8 +7,14 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'PocketCloudSystem',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg'},
+			],
 			sidebar: [
+				{
+					label: "Home",
+					autogenerate: { directory: 'home' },
+				},
 				{
 					label: 'Guides',
 					items: [
@@ -20,10 +26,7 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
-				{
-					label: "Home",
-					autogenerate: { directory: 'home' },
-				},
+				
 			],
 		}),
 	],
