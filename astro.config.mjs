@@ -33,7 +33,11 @@ export default defineConfig({
 				{
 					label: "Modules",
 					items: [
-						{ label: 'NASA', link: 'https://www.nasa.gov/' },
+						{
+          label: 'NASA',
+          link: 'https://www.nasa.gov/',
+          attrs: { target: '_blank', style: 'font-style: italic' },
+        },
 					]
 				}
 				
