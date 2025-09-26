@@ -2,6 +2,10 @@
 title: NPC Module
 ---
 
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
 ```mermaid
 sequenceDiagram
 Alice ->> Bob: Hello Bob, how are you?
