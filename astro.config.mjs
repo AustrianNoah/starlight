@@ -21,6 +21,7 @@ export default defineConfig({
 			],
 			sidebar: [
 				{ slug: 'home/home'},
+				{ slug: 'features/features' },
 				{
 					label: "Installation",
 					items: [
