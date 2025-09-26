@@ -29,13 +29,6 @@ export default defineConfig({
 						{ label: 'Installation', slug: 'installation/installation'} 
 ,					]
 				},
-
-				{
-					label: "Features",
-					autogenerate: {
-						directory: 'features'
-					},
-				},
 				
 			],
 		}),
