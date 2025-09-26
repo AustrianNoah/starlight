@@ -11,10 +11,7 @@ export default defineConfig({
 				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/9kJjqcsH7B'},
 			],
 			sidebar: [
-				{
-					label: "Home",
-					autogenerate: { directory: 'home' },
-				},
+				{ slug: 'home/home'},
 				{
 					label: 'Guides',
 					items: [
