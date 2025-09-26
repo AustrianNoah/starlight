@@ -19,8 +19,6 @@ export default defineConfig({
 						{ label: 'Installation', slug: 'installation/installation'} 
 ,					]
 				},
-
-				{ slug: 'features/Features'},
 				
 			],
 		}),
